@@ -1,0 +1,132 @@
+html body {
+    margin: 0px;
+}
+
+#main-container {
+    height: 100%; 
+    width: 100%; 
+    /* border: black 1px solid; */
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    height: 22%;
+    width: 100vw;
+    /* border: 1px green solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-image: linear-gradient(to right, white , rgb(68, 68, 250));
+}
+
+/* #companyname {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+} */
+
+#navbarr {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    /* border: 1px solid blue; */
+    height: 9%;
+    width: 100%;
+}
+
+#options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid blue; */
+    width: 50%;
+    height: 100%;
+    /* margin-left: 0px; */
+}
+
+#login {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: center;
+    /* border: 1px solid blue; */
+    margin-left: auto;
+    margin-right: 9%;
+    width: 10%;
+}
+
+h3 {
+    font-size: 150% ;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.content-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7%;
+    width: 100%;
+    /* border: 1px solid green; */
+}
+
+h2 {
+    font-size: 180%;
+    /* padding: 0px; */
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+#whatwedo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 231, 251);
+    border-radius: 10%;
+}
+
+#whatwedop {
+    padding: 3%;
+}
+
+#whoweare {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-box {
+    height: 100%;
+    width: 27%;
+    border: none;
+    border-radius: 10%;
+}
+
+#footer {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(85, 85, 200);
+    align-items: center;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
