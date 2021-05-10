@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 80%;
+}
+
+.header-container {
+    width: 80%;
+    margin: auto;
+}
+
+.col-3 {
+    border: 1px black solid;
+    width: 33%;
+    float: left;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline;
+    font-size: .85em;
+}

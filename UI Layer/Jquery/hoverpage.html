@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <style>
+        .para {
+            border: 1px solid black;
+            font-size: x-large;
+        }
+    </style>
+
+    <script>
+
+        $("document").ready(()=>{
+
+            $(".p1").hover(fif2f3);
+
+            function fif2f3(){
+                $(this).toggleClass("para");
+            }
+
+            // $(".p1").hover(() => {
+            //     $(this).toggleClass("para");
+            // });
+        });
+    </script>
+</head>
+<body>
+    
+    <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima culpa totam commodi omnis animi cumque perferendis soluta, rerum nobis a recusandae inventore velit ipsum aperiam. Adipisci molestias quod facilis ab consequuntur tenetur, magnam excepturi ut est libero iure dicta debitis, nihil ex, a mollitia explicabo maiores cupiditate nobis omnis deleniti!</p>
+    <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam impedit doloremque, voluptatum fugiat qui nihil ut! Reiciendis rerum, beatae nostrum velit aliquid amet alias tempora ad veniam iusto sit ipsa consequatur vel obcaecati libero voluptate possimus officiis ullam laboriosam deleniti dolorum nesciunt quae similique eaque. Impedit eum blanditiis aperiam praesentium.</p>
+    <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptas. Id similique consectetur eligendi consequuntur, quaerat qui ad delectus eveniet nobis deleniti, asperiores in impedit accusantium mollitia ab at, rem unde odio nesciunt voluptatum dolorem laudantium aliquam? Quasi possimus nesciunt reiciendis quibusdam. Molestiae in aut laudantium ducimus saepe nobis optio.</p>
+
+    
+</body>
+</html>

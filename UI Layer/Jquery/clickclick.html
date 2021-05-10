@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <style>
+        #box {
+            height: 100;
+            width: 30%;
+            border: 2px solid red;
+        }
+    </style>
+
+    <script>
+
+        $("document").ready(() => {
+
+            $("#toggle").click(()=>{
+                $("#para").toggle(400,"linear");
+            });
+
+            $("#toggle2").click(()=>{
+                $("#para").toggle(400,"swing");
+            });
+
+            $("#toggle3").click(()=>{
+                $("#para").slideUp(400);
+            });
+
+            $("#toggle4").click(()=>{
+                $("#para").slideDown(400);
+            });
+
+            $("#toggle5").click(()=>{
+                $("#para").slideToggle(400);
+            });
+
+            $("#box").hover(action);
+
+            function action(){
+                $("#box").animate({width: "60%", height: "200px", marginleft: "100px"});
+            }
+        });
+    </script>
+</head>
+<body>
+    <a id = "toggle" href="#">linear</a>
+    <a id = "toggle2" href="#">swing</a>
+    <a id = "toggle3" href="#">slideUp</a>
+    <a id = "toggle4" href="#">slideDown</a>
+    <a id = "toggle5" href="#">slideToggle</a>
+
+
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam hic veritatis itaque nemo consequuntur nihil minus porro pariatur molestiae ducimus eos dolore quidem eius maxime nobis labore reprehenderit, delectus dignissimos omnis eveniet! Fugiat, recusandae. Accusantium architecto quis quos, deserunt labore pariatur ipsum harum nisi eligendi possimus eos eum rem veniam.</p>
+
+    <div id="box">
+        
+    </div>
+
+</body>
+</html>
